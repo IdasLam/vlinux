@@ -1,0 +1,38 @@
+.none {
+    display: none;
+    transition: 0.2s ease-out;
+}
+
+.buttons {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-bottom: 30px;
+    flex-flow: wrap;
+
+    button {
+        background-color: black;
+        color: white;
+        border: unset;
+        padding: 15px;
+        cursor: pointer;
+        font-size: clamp(1rem, 2vw, 1.5rem);
+        margin: 10px 0;
+        transition: 0.4s ease-in-out;
+    }
+
+    button:hover {
+        background-color: white;
+        color: black;
+    }
+}
+
+.rd {
+    h2 {
+        margin-bottom: 10px;
+    }
+
+    p {
+        
+    }
+}

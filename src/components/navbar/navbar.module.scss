@@ -1,0 +1,10 @@
+.nav-links {
+    place-self: center;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+
+    a {
+        font-style: italic;
+    }
+}
